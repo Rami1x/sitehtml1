@@ -6,12 +6,47 @@ h1 {
 
 .button {
     color: black;
+    transition-duration: 0.4s;
+    background-color: #A43820;
     text-decoration: none;
-    background: #A43820;
-    display: list-item;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 20px;
     margin: 10px;
     border-radius: 10px;
+    cursor: pointer;
 
 }
+
+.button:hover {
+    background-color: #7d2b19;
+}
+
+#button2 {
+    color: black;
+    transition-duration: 0.4s;
+    background-color: #e49f38;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#button2:hover {
+    background-color: #b37f33;
+}
+
+.button1 {
+    color: black;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
